@@ -20,6 +20,7 @@ export default function Career() {
       <p className="mb-3 text-stone-500">TypeScript</p>
       <p className="mb-3 text-stone-500">React</p>
       <p className="mb-3 text-stone-500">NextJS</p>
+      <p className="mb-3 text-stone-500">Recoil</p>
       <p className="mb-3 text-stone-500">Styled Components</p>
       <p className="mb-3 text-stone-500">Tailwind CSS</p>
     </section>

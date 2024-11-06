@@ -1,3 +1,9 @@
+import NaljaIntro from '../nalja/NaljaIntro'
+
 export default function Project() {
-  return <div className="relative top-20">gd</div>
+  return (
+    <section className="flex flex-col">
+      <NaljaIntro />
+    </section>
+  )
 }
