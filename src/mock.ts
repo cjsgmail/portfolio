@@ -32,6 +32,19 @@ export const projectData = [
       'NextJS, TypeScript, NodeJS, Express, MySQL, FullCalendar, React-Beautiful-DND, MUI, AWS EC2, Docker',
     ui: 'https://www.notion.so/UI-13c2355dd81d801d9a49ccdaaa0247b4',
   },
+]
+
+export const studyData = [
+  {
+    id: 2,
+    name: '포트폴리오',
+    date: '2024.11',
+    shortIntro: 'Tailwind CSS를 학습하며 개발한 포트폴리오 웹',
+    dev: ['Tailwind CSS 학습', '반응형 웹 구현'],
+    skill: 'React, React-Router-Dom, Tailwind CSS, Netlify',
+    github: 'https://github.com/cjsgmail/portfolio',
+    url: 'https://jeongseok-portfolio.netlify.app/',
+  },
   {
     id: 3,
     name: '데일리 클럽',
