@@ -4,7 +4,7 @@ import ProfileSection from '../about/ProfileSection'
 
 export default function About() {
   return (
-    <div className="relative top-40 flex flex-row justify-between px-44 align-middle">
+    <div className="desktop:flex-row desktop:justify-between desktop:align-middle flex flex-col justify-center p-32 max-[1149px]:items-center">
       <ProfileSection />
       <MyInfo />
       <Career />

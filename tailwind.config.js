@@ -7,6 +7,10 @@ module.exports = {
         job: ['"Playwrite CU"', 'cursive'],
       },
     },
+    screens: {
+      laptop: '480px',
+      desktop: '1150px',
+    },
   },
   plugins: [],
 }

@@ -1,6 +1,6 @@
 export default function ProfileSection() {
   return (
-    <section className="flex w-72 flex-col">
+    <section className="mt-10 flex w-72 flex-col items-center">
       <div className="mb-10 h-60 w-60 overflow-hidden rounded-full">
         <img
           className="h-full w-full object-cover"
@@ -8,7 +8,7 @@ export default function ProfileSection() {
           src="/assets/images/profile.jpeg"
         />
       </div>
-      <div className="font-job mb-10 text-2xl font-bold text-sky-600">Frontend Developer</div>
+      <div className="mb-10 font-job text-2xl font-bold text-sky-600">Frontend Developer</div>
       <div className="mb-3 text-xl font-bold text-stone-700">기획자의 의도와 사용자의 니즈</div>
       <p className="mb-3 text-lg text-stone-500">
         왜? 라는 질문을 하며 의미를 가지고
