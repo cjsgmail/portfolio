@@ -1,6 +1,6 @@
 export default function ProfileSection() {
   return (
-    <section className="mt-10 flex w-72 flex-col items-center">
+    <section className="desktop:items-center mt-10 flex w-72 flex-col">
       <div className="mb-10 h-60 w-60 overflow-hidden rounded-full">
         <img
           className="h-full w-full object-cover"
